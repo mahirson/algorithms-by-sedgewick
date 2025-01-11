@@ -65,6 +65,11 @@ public class Exercises {
         }
     }
 
+    private void exercise1120(int n) {
+        var factorial = factorial(n);
+        System.out.println(lnBase2(factorial));
+    }
+
     private void exercise1124(int a, int b) {
         if (a == b) {
             System.out.println("The greatest common divisor is: " + a);
@@ -73,11 +78,6 @@ public class Exercises {
             var max = Math.max(a, b);
             exercise1124(max - min, min);
         }
-    }
-
-    private void exercise1120(int n) {
-        var factorial = factorial(n);
-        System.out.println(lnBase2(factorial));
     }
 
     public static void main(String[] args) {

@@ -13,7 +13,6 @@ public class Main {
         int n = 20;  // number of particles (default 20)
         if (args.length == 1) {
             n = Integer.parseInt(args[0]);
-
         }
 
         // enable double buffering to support animations
